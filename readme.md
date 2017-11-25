@@ -17,6 +17,7 @@ Next, make sure to state that the Audit report focuses solely on the source code
 
 ## Overview of audit
 Start of by declaring the practitioner/author of the audit and the time of execution. <br>
+Notice the rader about the intents of the audit, which does not guarantee bugfree code but highlights of any area of weakness <br>
 Following above should be an overview of all the smart contracts in question. <br>
 Make sure to touch upon the purpose of the miscellaneous smart contracts and a link to their existence. 
 
