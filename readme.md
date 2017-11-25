@@ -17,7 +17,7 @@ Next, make sure to state that the Audit report focuses solely on the source code
 
 ## Overview of audit
 Start of by declaring the practitioner/author of the audit and the time of execution. <br>
-Notice the rader about the intents of the audit, which does not guarantee bugfree code but highlights of any area of weakness <br>
+Notice the reader about the intents of the audit, no guarantee of bugfree code but highlights of any found weaknesses <br>
 Following above should be an overview of all the smart contracts in question. <br>
 Make sure to touch upon the purpose of the miscellaneous smart contracts and a link to their existence. 
 
@@ -56,7 +56,7 @@ In this section you present any failed line(s) of code from the previous section
 
 ## Risks
 Explanation of the risks associated with the smart contracts in question. <br>
-Make sure the business are aware of the consequences associated with writing logic in a certain way.
+Make sure expose the consequences associated with writing logic in a certain way.
 
 ## Tests
 Make sure that tests has been done of the code and that if there are any associated tests of the code in question that those work as they are supposed to do. <br> If no tests present, create full test coverage of the smart contracts and place emphasis on tests passing <b>NOT</b> failing.
