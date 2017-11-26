@@ -1,6 +1,6 @@
 # phant0ms_ Auditing Recipe
 This file serves as a 'recipe' for developers who wish to start their journey towards executing audits in a <b>perfectly structured</b> manner.
-Follow this structure to create a report that covers all the content that a <b>quality</b> audit should consist of.
+Follow this structure to create a report that covers all the content that a <b>quality</b> audit should include.
 
 ## Due Diligence
 Start of by stating due diligence to the readers interested in the concerned business proposition.<br>
