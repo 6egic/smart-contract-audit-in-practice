@@ -4,18 +4,18 @@ Follow this structure to create a report that covers all the content that a <b>q
 
 ## Due Diligence
 Start of by stating due diligence to the readers interested in the concerned business proposition.<br>
-Make sure that the readers of the audit are <b>AWARE</b> of the types of phishing and scamming attempts circulating in the crypto space and that they are <b>INFORMED</b> that this audit report covers <b>JUST</b> the smart contracts presented in the overview section and <b>NOTHING</b> else. <br>
+Make sure that the readers of the audit are <b>aware</b> of the types of phishing and scamming attempts circulating in the crypto space and that they are <b>informed</b> that this audit report covers <b>just</b> the smart contracts presented in the overview section and <b>nothing</b> else. <br>
 
-This means that the readers should be <b>ENCOURAGED</b> to check if the source code of the included smart contracts <b>MATCHES</b> the ones on etherscan. In addition, that any contract addresses published on media channels by the concerned business, is <b>IDENTIcAL</b> to the ones declared in the audit report, this is to maximize the <b>SAFETY</b> of the reader.
+This means that the readers should be <b>encouraged</b> to check if the source code of the included smart contracts <b>matches</b> the ones on etherscan. In addition, that any contract addresses published on media channels by the concerned business, is <b>identical</b> to the ones declared in the audit report, this is to maximize the <b>safety</b> of the reader.
 
 
 ## Limitations
-Next, make sure to state that the Audit report focuses <b>SOLELY</b> on the source code of the smart contracts and that you as an auditor express <b>NO OPINION</b> of concerned the business proposition or the individuals involved in the operating business. 
+Next, make sure to state that the Audit report focuses <b>solely</b> on the source code of the smart contracts and that you as an auditor express <b>no opinion</b> of concerned the business proposition or the individuals involved in the operating business. 
 
 
 ## Overview of audit
 Start of by declaring the practitioner/author of the audit and the time of execution/delivery. <br>
-Notice the reader about the <b>INTENTS</b> of the audit, which is to highlight any discovered weaknesses and that you cannot <b>GUARANTEE</b> a completely bugfree code. <br>
+Notice the reader about the <b>intents</b> of the audit, which is to highlight any discovered weaknesses and that you cannot <b>guarantee</b> a completely bugfree code. <br>
 Next should be an overview of the smart contracts which will be audited. <br> 
 This is accomplished by giving a summary of their purpose and a link to their existence on etherscan.  
 
@@ -66,10 +66,10 @@ Coding errors that leads to increased gas costs.
 
 ## Risks
 This section should contain an explanation of the risks associated with covered smart contracts of the audit. <br>
-Make sure <b>EXPOSE</b> the consequences associated with writing any logic in certain way and why it's a risk.
+Make sure to <b>expose</b> the consequences associated with writing any logic in certain way and why it's a risk.
 
 ## Tests
-One of the less attractive things to do is testing, however it is very <b>IMPORTANT</b> and many projects rely too much on boiler code. Make sure that tests has been conducted of the included smart contracts. If any tests are already present, make sure that those actually pass based on the functionality and are written properly. <br> If no tests are present, then <b>YOU</b> as an auditor should create a <b>FULL</b> test coverage section making sure <b>EVERY</b> box ticks out. When testing make sure <b>EMPHASIS</b> is placed upon tests <b>PASSING</b> and not failing, this is general best practices of unit testing. 
+One of the less funny things to do for many is creating testcases. However it is very <b>important</b> and many projects rely too much on boiler code. Make sure that tests has been conducted of the included smart contracts. If any tests are already present, make sure that those actually pass based on the functionality and are written properly. <br> If no tests are present, then <b>you</b> as an auditor should create a <b>full</b> test coverage section making sure <b>every</b> box ticks out. When testing make sure <b>emphasis</b> is placed upon tests <b>passing</b> and not failing, this is general best practices of unit testing. 
 
 
 ## Summary of contracts and conclusion
