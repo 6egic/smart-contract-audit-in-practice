@@ -69,8 +69,7 @@ This section should contain an explanation of the risks associated with covered 
 Make sure <b>EXPOSE</b> the consequences associated with writing any logic in certain way and why it's a risk.
 
 ## Tests
-One of the less attractive things to do is testing, however it is very <b>IMPORTANT</b> and many projects rely too much on boiler code. Make sure that tests has been conducted of the included smart contracts. <br> 
-If any tests are already present, make sure that those actually pass based on the functionality and are written properly. <br> If no tests are present, then <b>YOU</b> as an auditor should create a <b>FULL</b> test coverage section making sure <b>EVERY</b> box ticks out<br> 
+One of the less attractive things to do is testing, however it is very <b>IMPORTANT</b> and many projects rely too much on boiler code. Make sure that tests has been conducted of the included smart contracts. If any tests are already present, make sure that those actually pass based on the functionality and are written properly. <br> If no tests are present, then <b>YOU</b> as an auditor should create a <b>FULL</b> test coverage section making sure <b>EVERY</b> box ticks out<br> 
 When testing make sure <b>EMPHASIS</b> is placed upon tests <b>PASSING</b> and not failing, this is general best practices of unit testing. 
 
 
