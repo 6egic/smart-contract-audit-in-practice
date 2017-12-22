@@ -1,4 +1,4 @@
-## CLEAN STRUCTURED AUDITING REPORT ◈  phant0m_(ファントム)
+## CLEAN STRUCTURED AUDITING REPORT ◈ Written by phant0m_(ファントム)
 This file serves as a 'recipe' for developers who wish to start their journey towards executing audits in a <b>perfectly structured</b> manner.
 Follow this structure to create a report that covers all the content that a <b>quality</b> audit should include.
 
