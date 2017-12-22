@@ -1,76 +1,49 @@
-# phant0ms_ Auditing Recipe
+# CLEAN STRUCTURED AUDITING REPORT @BY phant0m_
 This file serves as a 'recipe' for developers who wish to start their journey towards executing audits in a <b>perfectly structured</b> manner.
 Follow this structure to create a report that covers all the content that a <b>quality</b> audit should include.
 
-## Due Diligence
-Start of by stating due diligence to the readers interested in the concerned business proposition.<br>
-Make sure that the readers of the audit are <b>aware</b> of the types of phishing and scamming attempts circulating in the crypto space and that they are <b>informed</b> that this audit report covers <b>just</b> the smart contracts presented in the overview section and <b>nothing</b> else. <br>
-
-This means that the readers should be <b>encouraged</b> to check if the source code of the included smart contracts <b>matches</b> the ones on etherscan. In addition, that any contract addresses published on media channels by the concerned business, is <b>identical</b> to the ones declared in the audit report, this is to maximize the <b>safety</b> of the reader.
+## EXECUTIVE SUMMARY
+In this section you shortly introduce that you were contracted to audit for xx and the purpose of the audit. 
+In addition you could stress the importance of audits when dealing with smart contracts.
 
 
-## Limitations
-Next, make sure to state that the Audit report focuses <b>solely</b> on the source code of the smart contracts and that you as an auditor express <b>no opinion</b> of concerned the business proposition or the individuals involved in the operating business. 
+### SUMMARY OF RESULTS
+Here you give a summary of the key findings from the audit. 
 
 
-## Overview of audit
-Start of by declaring the practitioner/author of the audit and the time of execution/delivery. <br>
-Notice the reader about the <b>intents</b> of the audit, which is to highlight any discovered weaknesses and that you cannot <b>guarantee</b> a completely bugfree code. <br>
-Next should be an overview of the smart contracts which will be audited. <br> 
-This is accomplished by giving a summary of their purpose and a link to their existence on etherscan.  
+## INTRODUCTION
+Introduce the concerned smart contracts of the audit.
+Shortly explain the smart contracts, their purpose and who developed the current version of the smart contracts.
+
+### DISCLAIMER
+Make sure for your own sake to line out that the audit does not constitute legal or investment advice and that no responsibillity is taken for any and all potential consequences of the deployment or use of the contract(s) related to the audit.
 
 
-## Recommendations
-This section is where recommendations are given on any discovered vulnerabilities or problems within the source code of the smart contract(s). <br>
-For the sake of structure, the auditor should seperate the discoverables into classes  based on their severity level: <br>
-
-#### Critical 
-Recommendations on how to fix any critical vulnerability if any is discovered.<br>
-
-#### High
-Recommendations on how to fix any high vulnerability if any is discovered.<br>
-
-#### Medium
-Recommendations on how to fix any medium vulnerability if any is discovered.<br>
-
-#### Low / Informational
-Recommendations on how to fix any low/information vulnerability if any is discovered.<br>
+## SCOPE
+Within this section, you clarify the extend of the audit. Usually, smart contracts will inherit various libraries or smart contracts written by other businesses. 
+Make sure to clarify and draw the line for what EXACTLY will be audited and covered in the report. 
 
 
-## Line by line comments
-During this section you go through every line of code, highlight by color and optional comments. <br> 
-The auditor should either highlight the code with green or red color based on the whether the line(s) pass or fail. <br>
-If the line(s) of code <b>passed</b> then you mark them with <b>green color.</b> <br>
-If the line(s) of code <b>failed</b> then you mark them with <b>red color.</b> 
+## ARCHITECTURAL OVERVIEW & AUDIT COVERAGE
+Here you draw the architecture of the smart contracts in question.  Create an easy to understand illustration of the flow and explain it afterwards. 
 
 
-## Vulnerabilities
-In this section you focus on any failed line(s) of code from the previous section and describe the vulnerabilities found in the related line(s) of code. Make sure to be as detailed as possible in the description.<br> Classify the vulnerabilties based on severity for the sake of clarity. <br> A general guideline to figuring the characteristics to classify a vulnerability based on severity level, is described below: <br>
-
-#### Critical 
-Exploits targeting this vulnerability leads to <b>value</b> and/or <b>system compromise.</b> <br>
-Coding errors that leads to system/value compromise
-
-#### High
-Exploits targeting this vulnerability leads to <b>value compromise.</b> <br>
-Coding errors that leads to value compromise
-
-#### Medium
-Exploits targeting this vulnerability leads to <b>functionality compromise.</b> <br>
-Coding errors that leads to function compromise
-
-#### Low / Informational
-Coding errors that works but <b>does not follow best practices.</b> <br>
-Coding errors that leads to increased gas costs.
+## THREAT MODEL & ECONOMICS 
+Discuss possible threat models which could ultimately leave the economic properties at risk. 
 
 
-## Risks
-This section should contain an explanation of the risks associated with covered smart contracts of the audit. <br>
-Make sure to <b>expose</b> the consequences associated with writing any logic in certain way and why it's a risk.
+## KEY FINDINGS
+Seperate key findings into two groups major and minor. 
+Any key findings should be solved nonetheless, however seperate between the two for structure and severity.
 
-## Tests
-One of the less funny things to do for many is creating testcases. However it is very <b>important</b> and many projects rely too much on boiler code. Make sure that tests has been conducted of the included smart contracts. If any tests are already present, make sure that those actually pass based on the functionality and are written properly. <br> If no tests are present, then <b>you</b> as an auditor should create a <b>full</b> test coverage section making sure <b>every</b> box ticks out. When testing make sure <b>emphasis</b> is placed upon tests <b>passing</b> and not failing, this is general best practices of unit testing. 
+### MAJOR FINDINGS
+This section covers any vulnerabilities that can critically effect the behaviour of the concerned smart contracts
+
+### MINOR FINDINGS
+This sections covers any vulnerabilities that are not critical but still shows bad coding practices and might add unnecessary difficulties.
 
 
-## Summary of contracts and conclusion
-Conclusively round up by describing the overall quality of the smart contracts and thoughts of proceeds. 
+## CONCLUSION
+Wrap it all up with overall quality, suggestions and thoughts based on discovered key findings. 
+
+
