@@ -7,7 +7,7 @@ In this section you shortly introduce that you were contracted to audit for xx a
 In addition you could stress the importance of audits when dealing with smart contracts.
 
 
-### SUMMARY OF RESULTS
+##### SUMMARY OF RESULTS
 Here you give a summary of the key findings from the audit. 
 
 
@@ -15,7 +15,7 @@ Here you give a summary of the key findings from the audit.
 Introduce the concerned smart contracts of the audit.
 Shortly explain the smart contracts, their purpose and who developed the current version of the smart contracts.
 
-### DISCLAIMER
+##### DISCLAIMER
 Make sure for your own sake to line out that the audit does not constitute legal or investment advice and that no responsibillity is taken for any and all potential consequences of the deployment or use of the contract(s) related to the audit.
 
 
@@ -36,10 +36,10 @@ Discuss possible threat models which could ultimately leave the economic propert
 Seperate key findings into two groups major and minor. 
 Any key findings should be solved nonetheless, however seperate between the two for structure and severity.
 
-### MAJOR FINDINGS
+##### MAJOR FINDINGS
 This section covers any vulnerabilities that can critically effect the behaviour of the concerned smart contracts
 
-### MINOR FINDINGS
+##### MINOR FINDINGS
 This sections covers any vulnerabilities that are not critical but still shows bad coding practices and might add unnecessary difficulties.
 
 
