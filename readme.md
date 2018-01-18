@@ -43,7 +43,7 @@ This section covers any vulnerabilities that can critically effect the behaviour
 This sections covers any vulnerabilities that are not critical but still shows bad coding practices and might add unnecessary difficulties.
 
 ### 7. COMMENTS
-This section covers any comments regarding the code itself and some additional good practices
+This section covers any comments regarding the code itself and some additional good practices.
 
 ### 8. CONCLUSION
 Wrap it all up with overall quality, suggestions and thoughts based on discovered key findings. 
