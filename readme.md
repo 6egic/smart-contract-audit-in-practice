@@ -20,7 +20,7 @@ Make sure for your own sake to line out that the audit does not constitute legal
 
 ### 2. SECURITY ISSUES
 Describe the key findings, show the related code, provide recommendations on how to fix and update status of concern.
-Any key findings should be solved nonetheless, however seperate between the two for structure and severity.
+Any key findings should be solved nonetheless, the current situation is what is updated in the status area.  
 
 
 ### 3. OBSERVATIONS
