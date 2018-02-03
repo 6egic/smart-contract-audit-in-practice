@@ -26,6 +26,8 @@ Any key findings should be solved nonetheless, the current situation is what is 
 ### 3. OBSERVATIONS
 This section covers any observations regarding the code itself, developer approach and some additional good practices.
 
+### 4. TESTING 
+This section covers the code coverage (summary of extend and coverage percentage) and the results (Summary of all passing unit tests).
 
-### 4. ABOUT
+### 5. ABOUT
 Brief description about the audit company.
