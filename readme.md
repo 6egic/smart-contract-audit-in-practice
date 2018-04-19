@@ -1,33 +1,26 @@
-## SKELETON FOR STRUCTURED AUDIT REPORT ◈ phant0m_ (ファントム)
-This file serves as a 'recipe' for developers who wish to start their journey towards executing audits in a <b>perfectly structured</b> manner.
-Follow this structure to create a report that covers all the content that a <b>quality</b> audit should include.
+## AUDIT SMART CONTRACTS WITH CONFIDENCE 
+This file serves as a 'recipe' to other developers, who wish to start their journey in the world of smart contract auditing. It is a template/skeleton which aims to get any developer started <b>easily</b> and in a <b>structured way.</b> 
+Follow this structure to build an in-depth report that covers all the important content which a <b>quality</b> audit should  consist off.
 
 ### 1. INTRODUCTION
-In this section you shortly introduce that you were contracted to audit for xx and the purpose of the audit. 
-In addition you could stress the importance of audits when dealing with smart contracts.
+In the introduction section, a short description is given about the scope, general info, and a summary of the results which is the key findings discovered from auditing the smart contracts of concern.  
+
+#### 1.1 DISCLAIMER
+Add a disclaimer for your own sake and peace of mind. Outline that the audit does not constitute legal or investment advice and that no responsibillity is taken for any and all potential consequences from using/deploying the smart contract(s) related to the audit report.
 
 ##### SCOPE
 Within this section, you clarify the extend of the audit. Usually, smart contracts will inherit various libraries or smart contracts written by other businesses. 
 Make sure to clarify and draw the line for what EXACTLY will be audited and covered in the report. 
 
-##### SUMMARY OF RESULTS
-Here you give a summary of the key findings from the audit. 
-
-
-#### 1.1 DISCLAIMER
-Make sure for your own sake to line out that the audit does not constitute legal or investment advice and that no responsibillity is taken for any and all potential consequences of the deployment or use of the contract(s) related to the audit.
-
-
 ### 2. SECURITY ISSUES
-Describe the key findings, show the related code, provide recommendations on how to fix and update status of concern.
-Any key findings should be solved nonetheless, the current situation is what is updated in the status area.  
+Touch upon the issues found in the source code, go through the well known attack vectors and comment on whether any of them were apparent in the smart contract(s) of concern. If it is the case that smart contract(s) are vulnerable to any of the attack vectors, then make sure to also state suggestions on how to fortify against the exposed vulnerabiltiies. 
 
 
 ### 3. OBSERVATIONS
-This section covers any observations regarding the code itself, developer approach and some additional good practices.
+This section, is less about security issues and more related to areas such as coherence, execution behavior, modularity, readability, visibility and optimization. Make sure to comment on all of the previously mentioned key words as they are critical to explore to ensure that the smart contract(s) of concern are of high quality. 
 
 ### 4. TESTING 
-This section covers the code coverage (summary of extend and coverage percentage) and the results (Summary of all passing unit tests).
+Always test/suggest testing of the smart contract(s) - unit tests should be done on smart contracts always and a code coverage percentage(branches, lines etc.) accompanied with the results (basically, the summary of passing unit tests) is very good to include.
 
 ### 5. ABOUT
-Brief description about the audit company.
+Conclusively end the report by introducing your company or yourself, nonetheless the subject in charge of providing an audit to the company of concern. 
